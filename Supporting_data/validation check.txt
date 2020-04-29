@@ -1,0 +1,10 @@
+1) Take the parcel id/ Document no from the case
+2)Search for it in TT
+  - If searched by parcel id . transaction is visible
+  -check if doc id is visible ,if Y , Pick it up , In a new window search for the doc#
+  - Check if accepted status is present----- If yes check for doc type , if both parameters true can send of a mail to customer about the resolution of the issue
+                                                                                 (validation check)
+																				 
+	 if only errored status then click on the status ,
+     opens the document
+     Download the error (text file)/ or find with keywords	

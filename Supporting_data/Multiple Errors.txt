@@ -1,0 +1,84 @@
+ShipmentIdentification:0083405341  Invalid data PLT in PackingMedium in line 80, column 41. The value 'PLT' is not one of the possible choices [CTN] in PackingMedium 
+
+ShipmentIdentification:0083405341  Missing element: expect PackingMedium before ending QuantityAndWeight in line 87,column 25 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 180,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 191,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 202,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 213,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 224,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 235,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 246,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 257,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 268,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 279,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 290,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 301,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 312,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 323,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 334,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 345,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 356,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 367,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 378,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 389,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 400,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 411,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 422,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 433,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 444,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 455,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 466,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 477,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 488,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 499,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 510,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 521,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 532,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 543,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 554,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 565,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 576,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 587,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 598,column 16 
+
+ShipmentIdentification:0083405341  Missing element: expect CarrierPackageID before ending Pack in line 609,column 16 
+

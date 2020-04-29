@@ -1,0 +1,87 @@
+Error Categorization :
+
+Only taking cases with subject line ->> Document Processing Errors 
+
+1) Invoice Error : Mismatched Item Total & TotalNetSalesAmount
+
+Error Description - InvoiceNumber:2200019372 Item Total of all items($2482.34) should match the TotalNetSalesAmount sent by supplier($2253.98)
+
+** Multiple checks required ->  Checking DRE 
+				Checking if the value is being altered by map
+				Crossverifying Total Amount sent on Purchase Order
+
+If nothing of above seems to alter it -> A template to for Educating the customer  
+
+____________________________________________________________________________________________________________________________________________________________
+
+2) Error for Missing data different segments of document DUE to incorrect data sent 
+
+	Example : 855 - Missing data in <ItemStatusCode>  
+
+	Error description : Document 1  Invalid data IC in ItemStatusCode in line 58, column 44. 
+                            The value 'IC' is not one of the possible choices [IA, AA, AR, AC, DR, IE, IF, IP, IQ, SP, BP, IB, R1, R2, R3, R4, R7] in ItemStatusCode 
+			    
+			    Document 1  Missing element: expect ItemStatusCode before ending LineItemAcknowledgement in line 62,column 33 
+
+
+	** The missing choice error comes in pair -> Segment in which incorrect choice is present & The root segment under which errored segment is present
+
+___________________________________________________________________________________________________________________________________________________________________
+3) Cases with Subject of Document Processing Error BUT no PCL UID given in the Description or mail
+
+Example -> case# 5097354
+
+Subject - FW: Document Processing Error: Rexel Canada Electrical Inc
+
+No PCL present in mail
+
+Information present -
+
+Document Originator: First Alert Canada
+Document Recipient: Rexel Canada Electrical Inc
+Document Type: 856
+
+Source Filename: /u01/ftp/vendor/jardencana/in/infac/ShipmentXML_e4964262bb824c69755ff267f37abb9c_VALID.xml
+
+PONumber: W+J47440
+ShipToLocationNumber: 87
+ShipToLocationNumber: 87
+TsetPurposeCode: 00
+ShipmentID: 0083405341
+
+** In such cases we have to Find the Errored PCL using the PO#
+_________________________________________________________________________________________________________________________________________________________________
+
+4) Multiple Errors with a combination of Invalid & Missing Data 
+
+Example: 05097354
+
+Error Description :
+
+ShipmentIdentification:0083405341 Invalid data PLT in PackingMedium in line 80, column 41. The value 'PLT' is not one of the possible choices [CTN] in PackingMedium 
+
+ShipmentIdentification:0083405341 Missing element: expect PackingMedium before ending QuantityAndWeight in line 87,column 25 
+
+ShipmentIdentification:0083405341 Missing element: expect CarrierPackageID before ending Pack in line 180,column 16 
+
+ShipmentIdentification:0083405341 Missing element: expect CarrierPackageID before ending Pack in line 191,column 16 
+
+ShipmentIdentification:0083405341 Missing element: expect CarrierPackageID before ending Pack in line 202,column 16 
+
+
+** Segregating The term "Missing element" where one is present as a byproduct of Invalid Data & other errors related to Missing data not sent on Document. 
+
+
+
+
+_________________________________________________________________________________________________________________________________________________________________
+
+5) Prod ready status - Checking wether its WF Prod ready or FI Prod Ready ->(For FI Prod Ready -> Send an SVC)
+
+First validation check -> Checking for "Implementation Status & Project Status Snapshot" in Case Coding section -> If term 'Prod Ready' present -> Manual intervention needed
+Apart from Prod Ready - Check for Project Status Snapshot like -> On Hold
+						 		  Escalated to Sales
+						                  Closed due to FI 12 month
+** Such cases need manual intervention
+
+

@@ -1,0 +1,43 @@
+Document Processing:
+
+1)Invalid data sent in file ( Bad data in various segments)
+- i)Feds errors : Can create a library of errors - 
+                   Some of the errors: Just a normal resend would do- List out the errors that would just work with a resend 
+				   Other data errors: eg :"PID segments ---- manual interventation  
+                                           But the errors could be varied : Least resistance path : Most common errors 1) PID 2)rejected by database as doc already exists
+										                                                                  
+										   https://atlassian.spscommerce.com/wiki/display/WEB/Error+messages
+
+2) Xref (missing cross reference)
+   error message usually: Data look up failed - DX
+  
+  i) Vendor Xref 
+   Relationship missing , Data looup failed for the entity
+   
+ Required: Vendor Number, TPID, Entity ID (NS)
+            will be diff. for inbound and outbound docs.  
+  ii) Data Xref
+  Data lookup failed for xxxxx 
+  we can send a template for wait for customer if internal id is present
+  
+  second scenario: if the internal id is present -in the case
+                                                   Excel sheet can be created and uploaded 
+                    
+                                                  ii) Can check for the same supplier with other retailer - In QB , NS the id would be the same  
+
+ 
+iii) Error : PurchaseOrderNumber:447602  PurchaseOrderNumber:447602  Acknowledgement for Purchase Order 447602 has failed due to an invalid item lookup.  
+		Please ensure that part number: 733739012968 matches what was transmitted on the Purchase Order.  
+
+		** By searching for the term "Invalid item lookup" -> can be categorised as missing Xref
+  
+  
+  
+3) Missing data( Info sent on PO not returned back on return docs)  
+
+
+
+
+
+
+4) Prod ready status -(Send an svc)
